@@ -10,7 +10,7 @@ const petsList = [
   { petName: "Goldie", petType: "fish" },
 ];
 
-const initialValues = { petName: "", petType: "" };
+const initialValues = { petName: "Tom", petType: "cat" };
 
 function SimpleForm() {
   // the state
@@ -32,8 +32,8 @@ function SimpleForm() {
       <form>
         <input
           name="petName"
-          value="formValues.petName"
           type="text"
+          value={formValues.petName}
           onChange={change}
         ></input>
       </form>
