@@ -42,12 +42,13 @@ export default function App() {
     axios
       .post("fakeapi.com", newFriend)
       .then((res) => {
-        setFriends([newFriend, ...friends ]) // equivalent of using .concat method (index.js)
+        setFriends([newFriend, ...friends]); // equivalent of using .concat method (index.js)
+        //  d) also on success clear the form
+        setFormValues(initialFormValues);
       })
       .catch((err) => {
         debugger;
       });
-    //  d) also on success clear the form
   };
 
   useEffect(() => {
