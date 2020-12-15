@@ -47,7 +47,7 @@ export default function FriendForm(props) {
             type="text"
             name="email"
             values={values.email}
-            onChange={onChange}
+            onChange={submit}
             placeholder="email"
           ></input>
         </label>
