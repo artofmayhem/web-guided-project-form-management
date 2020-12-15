@@ -17,6 +17,8 @@ function SimpleForm() {
   const [pets, setPets] = useState(petsList);
   const [formValues, setFormValues] = useState(initialValues);
 
+  const change = (evt) => {};
+
   return (
     <div className="container">
       <h1>Simple Form</h1>
