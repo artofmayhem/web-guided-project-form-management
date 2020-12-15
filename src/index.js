@@ -28,7 +28,12 @@ function SimpleForm() {
         );
       })}
       <form>
-        <input name="petName" type="text"></input>
+        <input
+          name="petName"
+          value="formValues.petName"
+          type="text"
+          onChange={change}
+        ></input>
       </form>
     </div>
   );
