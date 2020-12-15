@@ -28,7 +28,7 @@ function SimpleForm() {
         );
       })}
       <form>
-        <input type="text"></input>
+        <input name="petName" type="text"></input>
       </form>
     </div>
   );
