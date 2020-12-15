@@ -19,7 +19,9 @@ function SimpleForm() {
 
   return <div className="container">
     <h1>Simple Form</h1>
-    
+    {pets.map((pet) => {
+      {pet.petName} is a {pet.petType}
+    })}
   </div>;
 }
 
