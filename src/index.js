@@ -29,7 +29,7 @@ function SimpleForm() {
           </div>
         );
       })}
-      <form>
+      <form onSubmit={submit}>
         <input
           name="petName"
           type="text"
@@ -42,6 +42,7 @@ function SimpleForm() {
           value={formValues.petType}
           onChange={change}
         ></input>
+        <button>submit</button>
       </form>
     </div>
   );
