@@ -42,7 +42,7 @@ export default function App() {
     axios
       .post("fakeapi.com", newFriend)
       .then((res) => {
-        setFriends()
+        setFriends([newFriend, ...friends ]) // equivalent of using .concat method (index.js)
       })
       .catch((err) => {
         debugger;
