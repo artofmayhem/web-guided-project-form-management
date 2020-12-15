@@ -21,7 +21,11 @@ function SimpleForm() {
     const { name, value } = evt.target;
     setFormValues({ ...formValues, [name]: value });
   };
-  const submit = (evt) => {};
+  const submit = (evt) => {
+    const newPet = {
+      
+    }
+  };
 
   return (
     <div className="container">
