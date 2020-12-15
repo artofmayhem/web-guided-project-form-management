@@ -21,9 +21,12 @@ function SimpleForm() {
     <div className="container">
       <h1>Simple Form</h1>
       {pets.map((pet, idx) => {
+        return (
         <div key={idx}>
           {pet.petName} is a {pet.petType}
         </div>;
+
+        )
       })}
     </div>
   );
