@@ -25,6 +25,7 @@ export default function App() {
   };
 
   const submitForm = () => {
+    debugger;
     // 🔥 STEP 9 - IMPLEMENT a submit function which will be used inside the form's own `onSubmit`
     //  a) make a new friend object, trimming whitespace from username and email
     //  b) prevent further action if either username or email or role is empty string after trimming
