@@ -7,7 +7,7 @@ import axios from "../axios";
 const initialFormValues = {
   ///// TEXT INPUTS /////
   username: "Rhiannon",
-  email: "r@rmail.com",
+  email: "rhiannon@rmail.com",
   ///// DROPDOWN /////
   role: "",
 };
