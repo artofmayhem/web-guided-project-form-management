@@ -10,7 +10,7 @@ const petsList = [
   { petName: "Goldie", petType: "fish" },
 ];
 
-const initialValues = { petName: "George", petType: "cat" };
+const initialValues = { petName: "", petType: "" };
 
 function SimpleForm() {
   // the state
