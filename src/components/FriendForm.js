@@ -29,7 +29,10 @@ export default function FriendForm(props) {
               Inputs render what they're told - their current value comes from app state.
               At each keystroke, a change handler fires to change app state. */}
               <input
-              
+               type="text"
+                name=username
+                value={values}
+                onChange={update}
               ></input>
         </label>
 
