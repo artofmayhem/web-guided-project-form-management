@@ -9,6 +9,7 @@ export default function FriendForm(props) {
     // a) pull the name of the input from the event object
     // b) pull the value of the input from the event object
     const { name, value } = evt.target;
+    update
     // c) use the `update` callback coming in through props
   };
 
